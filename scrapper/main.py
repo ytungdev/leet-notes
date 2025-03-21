@@ -58,7 +58,7 @@ def main():
     print(f'create : {new_dir}')
     with open(".\leetcode-log.csv", 'a', encoding="utf-8") as log:
         timestamp = datetime.datetime.now().replace(microsecond=0).isoformat()
-        log.write(f'{timestamp}, {q_number}, {q_slug}, {q_lvl}, {url}')
+        log.write(f'{timestamp}, {q_number}, {q_slug}, {q_lvl}, {url}\n')
     print(f'logged')
 
 
