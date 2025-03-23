@@ -43,10 +43,15 @@ def main():
     q_lvl = question['difficulty']
     q_content = question['content']
 
+    # write sample-data.json
+    # with open("sample-data.json", "w", encoding="utf-8") as file:
+    #     file.write(json.dumps(question))
+    
     # create new dir
     new_dir = f'./{q_number}_{q_slug}'
     Path(new_dir).mkdir(parents=True, exist_ok=True)
 
+    
     # write .md file
     with open(f"{new_dir}/README.md", "w", encoding="utf-8") as file:
         file.write(f'# [{q_number}. {q_title}]({url})\n\n')
@@ -56,6 +61,8 @@ def main():
         file.write('- time  : O()\n')
         file.write('- space : O()\n')
     print(f'create : {new_dir}')
+    
+    # write .csv log
     with open("./leetcode-log.csv", 'a', encoding="utf-8") as log:
         timestamp = datetime.datetime.now().replace(microsecond=0).isoformat()
         log.write(f'{timestamp}, {q_number}, {q_slug}, {q_lvl}, {url}\n')
