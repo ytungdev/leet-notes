@@ -1,3 +1,4 @@
+timestamp, questionId, titleSlug, difficulty, url
 2025-03-17T21:43:01, 2594, minimum-time-to-repair-cars, Medium, https://leetcode.com/problems/minimum-time-to-repair-cars
 2025-03-17T22:06:06, 2206, divide-array-into-equal-pairs, Easy, https://leetcode.com/problems/divide-array-into-equal-pairs
 2025-03-19T00:29:21, 2401, longest-nice-subarray, Medium, https://leetcode.com/problems/longest-nice-subarray
