@@ -42,6 +42,7 @@ def main():
     q_slug = question['titleSlug']
     q_lvl = question['difficulty']
     q_content = question['content']
+    q_topics = [tag['slug'] for tag in question['topicTags']]
 
     # write sample-data.json
     # with open("sample-data.json", "w", encoding="utf-8") as file:
@@ -55,7 +56,11 @@ def main():
     # write .md file
     with open(f"{new_dir}/README.md", "w", encoding="utf-8") as file:
         file.write(f'# [{q_number}. {q_title}]({url})\n\n')
-        file.write(f'> {q_lvl}\n\n')
+        file.write(f'\n> {q_lvl}\n\n')
+        for tag in q_topics:
+            file.write(f'- {tag}\n')
+        file.write('\n\n\n')
+        file.write('## Question\n\n\n')
         file.write(q_content)
         file.write('\n\n\n## Solution\n\n')
         file.write('- time  : O()\n')
