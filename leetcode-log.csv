@@ -11,3 +11,4 @@ timestamp, questionId, titleSlug, difficulty, url
 2025-03-25T23:36:46, 3394, check-if-grid-can-be-cut-into-sections, Medium, https://leetcode.com/problems/check-if-grid-can-be-cut-into-sections
 2025-03-26T22:06:42, 2033, minimum-operations-to-make-a-uni-value-grid, Medium, https://leetcode.com/problems/minimum-operations-to-make-a-uni-value-grid
 2025-03-28T21:47:05, 2780, minimum-index-of-a-valid-split, Medium, https://leetcode.com/problems/minimum-index-of-a-valid-split
+2025-03-29T21:02:14, 0004, median-of-two-sorted-arrays, Hard, https://leetcode.com/problems/median-of-two-sorted-arrays
