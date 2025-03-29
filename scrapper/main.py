@@ -37,7 +37,7 @@ def main():
     # extract data
     data = json.loads(data_str)
     question = data['props']['pageProps']['dehydratedState']['queries'][1]['state']['data']['question']
-    q_number = question['questionFrontendId']
+    q_number = question['questionFrontendId'].zfill(4)
     q_title = question['title']
     q_slug = question['titleSlug']
     q_lvl = question['difficulty']
