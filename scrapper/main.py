@@ -70,7 +70,7 @@ def main():
     # write .csv log
     with open("./leetcode-log.csv", 'a', encoding="utf-8") as log:
         timestamp = datetime.datetime.now().replace(microsecond=0).isoformat()
-        log.write(f'{timestamp}, {q_number}, {q_slug}, {q_lvl}, {url}\n')
+        log.write(f'{timestamp}, {q_number}, {q_slug}, {q_lvl}, {q_topics}\n')
     print(f'logged')
 
 
