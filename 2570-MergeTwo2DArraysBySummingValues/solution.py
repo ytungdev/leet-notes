@@ -1,3 +1,8 @@
+from typing import List
+
+# Time : Beats 100.0 %
+# Memo : Beats 62.61 %
+
 class Solution:
     def mergeArrays(self, nums1: List[List[int]], nums2: List[List[int]]) -> List[List[int]]:
         res = []
