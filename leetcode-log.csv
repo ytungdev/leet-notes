@@ -1,4 +1,6 @@
 timestamp, questionId, titleSlug, difficulty, topics
+2025-03-14T00:26:34, 2460, apply-operations-to-an-array, Easy, "['array', 'two-pointers', 'simulation']"
+2025-03-15T01:03:31, 2570, merge-two-2d-arrays-by-summing-values, Easy, "['array', 'hash-table', 'two-pointers']"
 2025-03-17T21:43:01, 2594, minimum-time-to-repair-cars, Medium, "['array', 'binary-search']"
 2025-03-17T22:06:06, 2206, divide-array-into-equal-pairs, Easy, "['array', 'hash-table', 'bit-manipulation', 'counting']"
 2025-03-19T00:29:21, 2401, longest-nice-subarray, Medium, "['array', 'bit-manipulation', 'sliding-window']"
