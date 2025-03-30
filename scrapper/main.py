@@ -64,7 +64,7 @@ def main():
         file.write(q_content)
         file.write('\n\n\n## Solution\n\n')
         file.write('- time  : O()\n')
-        file.write('- space : O()\n')
+        file.write('- space : O()\n\n---\n')
     with open(f"{new_dir}/solution.py", "w", encoding="utf-8") as file:
         file.write('from typing import List\n\n')
         file.write('# Time : Beats 0000 %\n# Memo : Beats 0000 %\n')

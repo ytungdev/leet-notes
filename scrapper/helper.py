@@ -4,6 +4,8 @@ from selenium_stealth import stealth
 
 import json
 
+from time import sleep
+
 def fetch(ts,url):
     options = webdriver.ChromeOptions()
     options.add_argument("--headless=new")
@@ -43,7 +45,7 @@ def fetch(ts,url):
     
     # create new dir
     # write .md file
-    with open(f"./{q_number}-README-helper.md", "w", encoding="utf-8") as file:
+    with open(f"./{q_number}-README.md", "w", encoding="utf-8") as file:
         file.write(f'# [{q_number}. {q_title}]({url})\n\n')
         file.write(f'\n> {q_lvl}\n\n')
         for tag in q_topics:
@@ -67,8 +69,10 @@ def fetch(ts,url):
 
 if __name__ == '__main__':
     data = [
-        ['2025-03-14T00:26:34','https://leetcode.com/problems/apply-operations-to-an-array'],
-        ['2025-03-15T01:03:31', 'https://leetcode.com/problems/merge-two-2d-arrays-by-summing-values'],
+        ['2024-01-04T11:49:00','https://leetcode.com/problems/container-with-most-water'],
+        ['2024-01-04T13:32:00','https://leetcode.com/problems/3sum'],
+        ['2024-01-04T14:40:00','https://leetcode.com/problems/remove-nth-node-from-end-of-list'],
     ]
     for ts,url in data:
         fetch(ts,url)
+        sleep(1)
