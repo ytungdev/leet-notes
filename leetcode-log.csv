@@ -1,15 +1,15 @@
-timestamp, questionId, titleSlug, difficulty, url
-2025-03-17T21:43:01, 2594, minimum-time-to-repair-cars, Medium, https://leetcode.com/problems/minimum-time-to-repair-cars
-2025-03-17T22:06:06, 2206, divide-array-into-equal-pairs, Easy, https://leetcode.com/problems/divide-array-into-equal-pairs
-2025-03-19T00:29:21, 2401, longest-nice-subarray, Medium, https://leetcode.com/problems/longest-nice-subarray
-2025-03-19T00:18:09, 2401, longest-nice-subarray, Medium, https://leetcode.com/problems/longest-nice-subarray
-2025-03-19T23:17:02, 3191, minimum-operations-to-make-binary-array-elements-equal-to-one-i, Medium, https://leetcode.com/problems/minimum-operations-to-make-binary-array-elements-equal-to-one-i/
-2025-03-21T16:58:06, 3108, minimum-cost-walk-in-weighted-graph, Hard, https://leetcode.com/problems/minimum-cost-walk-in-weighted-graph
-2025-03-22T19:21:07, 3151, special-array-i, Easy, https://leetcode.com/problems/special-array-i
-2025-03-23T17:41:17, 2161, partition-array-according-to-given-pivot, Medium, https://leetcode.com/problems/partition-array-according-to-given-pivot/
-2025-03-25T00:07:24, 3169, count-days-without-meetings, Medium, https://leetcode.com/problems/count-days-without-meetings
-2025-03-25T23:36:46, 3394, check-if-grid-can-be-cut-into-sections, Medium, https://leetcode.com/problems/check-if-grid-can-be-cut-into-sections
-2025-03-26T22:06:42, 2033, minimum-operations-to-make-a-uni-value-grid, Medium, https://leetcode.com/problems/minimum-operations-to-make-a-uni-value-grid
-2025-03-28T21:47:05, 2780, minimum-index-of-a-valid-split, Medium, https://leetcode.com/problems/minimum-index-of-a-valid-split
-2025-03-29T21:02:14, 0004, median-of-two-sorted-arrays, Hard, https://leetcode.com/problems/median-of-two-sorted-arrays
+timestamp, questionId, titleSlug, difficulty, topics
+2025-03-17T21:43:01, 2594, minimum-time-to-repair-cars, Medium, ['array', 'binary-search']
+2025-03-17T22:06:06, 2206, divide-array-into-equal-pairs, Easy, ['array', 'hash-table', 'bit-manipulation', 'counting']
+2025-03-19T00:29:21, 2401, longest-nice-subarray, Medium, ['array', 'bit-manipulation', 'sliding-window']
+2025-03-19T00:18:09, 2401, longest-nice-subarray, Medium, ['array', 'bit-manipulation', 'sliding-window']
+2025-03-19T23:17:02, 3191, minimum-operations-to-make-binary-array-elements-equal-to-one-i, Medium, ['array', 'bit-manipulation', 'queue', 'sliding-window', 'prefix-sum']
+2025-03-21T16:58:06, 3108, minimum-cost-walk-in-weighted-graph, Hard, ['array', 'bit-manipulation', 'union-find', 'graph']
+2025-03-22T19:21:07, 3151, special-array-i, Easy, ['array']
+2025-03-23T17:41:17, 2161, partition-array-according-to-given-pivot, Medium, ['array', 'two-pointers', 'simulation']
+2025-03-25T00:07:24, 3169, count-days-without-meetings, Medium, ['array', 'sorting']
+2025-03-25T23:36:46, 3394, check-if-grid-can-be-cut-into-sections, Medium, ['array', 'sorting']
+2025-03-26T22:06:42, 2033, minimum-operations-to-make-a-uni-value-grid, Medium, ['array', 'math', 'sorting', 'matrix']
+2025-03-28T21:47:05, 2780, minimum-index-of-a-valid-split, Medium, ['array', 'hash-table', 'sorting']
+2025-03-29T21:02:14, 0004, median-of-two-sorted-arrays, Hard, ['array', 'binary-search', 'divide-and-conquer']
 2025-03-30T16:04:23, 0763, partition-labels, Medium, ['hash-table', 'two-pointers', 'string', 'greedy']
