@@ -1,3 +1,8 @@
+from typing import List
+
+# Time : Beats  0.15 %
+# Memo : Beats 98.93 %
+
 class Solution:
     def search(self, nums: List[int], target: int) -> int:
         def bin_search(nums, start, end, target):

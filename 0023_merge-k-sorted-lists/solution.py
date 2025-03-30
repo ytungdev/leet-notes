@@ -1,8 +1,14 @@
+from typing import List, Optional
+
+# Time : Beats 16.62 %
+# Memo : Beats 68.28 %
+
 # Definition for singly-linked list.
-# class ListNode:
-#     def __init__(self, val=0, next=None):
-#         self.val = val
-#         self.next = next
+class ListNode:
+    def __init__(self, val=0, next=None):
+        self.val = val
+        self.next = next
+
 class Solution:
     def mergeKLists(self, lists: List[Optional[ListNode]]) -> Optional[ListNode]:
         def merge_2_lists(list1, list2):
@@ -33,7 +39,7 @@ class Solution:
 
         if not lists:
             return None
-        while len(lists) > 1:
+        while len(lists) != 1:
             L, R = 0, len(lists)-1
             new_list = []
             while L<=R:
