@@ -1,3 +1,8 @@
+from typing import List
+
+# Time : Beats  5.21 %
+# Memo : Beats 24.06 %
+
 class Solution:
     def maxArea(self, height: List[int]) -> int:
         max_vol = 0
