@@ -95,8 +95,11 @@
 	- if `A[i] > B[j+1]`, partition `i` is too right, binary search `A.left` `L,R = 0,i-1`
 	- if `B[j] > A[i+1]`, partition `i` is too left, binary search `A.right` `L,R = i+1,m`
 
+---
+
 ```
-The following case show 3 scenario of partitioning with 
+The following case show 3 scenario of partitioning,  with :
+
 I = [a,b,c,d,e,f,g]
 m = 3
 n = 4
@@ -115,7 +118,7 @@ A	a       c |     e
 B       b     | d       f   g
         0     | 1       2   3
 
-c<d and b<e, right partitioning
+c<d and b<e, correct partitioning
 ---------------------------------------------------------
 # A[i] > B[j+1]
 
