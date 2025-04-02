@@ -22,3 +22,4 @@ timestamp, questionId, titleSlug, difficulty, topics
 2025-03-28T21:47:05, 2780, minimum-index-of-a-valid-split, Medium, "['array', 'hash-table', 'sorting']"
 2025-03-29T21:02:14, 0004, median-of-two-sorted-arrays, Hard, "['array', 'binary-search', 'divide-and-conquer']"
 2025-03-30T16:04:23, 0763, partition-labels, Medium, "['hash-table', 'two-pointers', 'string', 'greedy']"
+2025-04-02T21:11:56, 2873, maximum-value-of-an-ordered-triplet-i, Easy, "['array']"
