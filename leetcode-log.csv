@@ -23,3 +23,5 @@ timestamp, questionId, titleSlug, difficulty, topics
 2025-03-29T21:02:14, 0004, median-of-two-sorted-arrays, Hard, "['array', 'binary-search', 'divide-and-conquer']"
 2025-03-30T16:04:23, 0763, partition-labels, Medium, "['hash-table', 'two-pointers', 'string', 'greedy']"
 2025-04-02T21:11:56, 2873, maximum-value-of-an-ordered-triplet-i, Easy, "['array']"
+2025-04-03T00:05:28, 2140, solving-questions-with-brainpower, Medium, "['array', 'dynamic-programming']"
+2025-04-03T23:33:28, 2874, maximum-value-of-an-ordered-triplet-ii, Medium, "['array']"
