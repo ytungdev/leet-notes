@@ -72,4 +72,35 @@ Total points earned: 2 + 5 = 7. There is no other way to earn 7 or more points.
 ---
 
 - bottom-up Dynamic Programming with memoisation
-- recursively explores two choices : finish/skip the question and return max score among the two option
+
+- Idea:
+	- explores two option finish/skip the question and return max point among the two option for each question
+	- start the iteration from last question to first question
+		- Given that last question only have one possible way to score (finish the question)
+	- return max possible point of first question
+- Implementation:
+	- Array iteration **O(N)**
+		- use array `dp` to memoize max possible point that can acheive at question `i` as `dp[i]`
+			- set default score of each index to `0`
+			- set default score of last element to point of last question
+		- iterate throgh `question` from second last element to first element
+			- find index of next available question `next_q`
+				- `i + question[i][0] + 1`
+			- find possible point finishing this question `finish`
+				- if further question is available, `question[i][0] + dp[next_q]`
+				- if no further question is available, `question[i][0]`
+			- find possible point skipping this question `skip`
+				- `dp[i+1]`
+			- set `dp[i]` to best option
+		- return `dp[0]`
+	- Recursion **O(N)**
+		- use array `max_score` to memoize max possible point that can acheive at question `i` as `max_socre[i]`
+			- set default score of each index to `0`
+		- define function `find_max(i)`
+			- if `i` out of bound (`>len(nums)`) return `0`
+			- if `max_score[i]` already been calculated(`!= 0`), return `max_score[i]`
+			- else return max among 
+				- `find_max[i+1]` (skip this question)
+				- `question[i][0] + find_max[i + skip +1]` (finish this question, and get max possible point from next question available)
+		- iterate throgh `question` from end of array to start of array
+		- return `max_score[0]`
