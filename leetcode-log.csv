@@ -26,3 +26,4 @@ timestamp, questionId, titleSlug, difficulty, topics
 2025-04-03T00:05:28, 2140, solving-questions-with-brainpower, Medium, "['array', 'dynamic-programming']"
 2025-04-03T23:33:28, 2874, maximum-value-of-an-ordered-triplet-ii, Medium, "['array']"
 2025-04-05T00:57:03, 1123, lowest-common-ancestor-of-deepest-leaves, Medium, "['hash-table', 'tree', 'depth-first-search', 'breadth-first-search', 'binary-tree']"
+2025-04-05T22:19:15, 1863, sum-of-all-subset-xor-totals, Easy, "['array', 'math', 'backtracking', 'bit-manipulation', 'combinatorics', 'enumeration']"
