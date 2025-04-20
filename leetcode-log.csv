@@ -33,3 +33,4 @@ timestamp, questionId, titleSlug, difficulty, topics
 2025-04-11T23:28:00, 2843, count-symmetric-integers, Easy, "['math', 'enumeration']"
 2025-04-14T23:20:38, 1534, count-good-triplets, Easy, "['array', 'enumeration']"
 2025-04-17T12:22:27, 2176, count-equal-and-divisible-pairs-in-an-array, Easy, "['array']"
+2025-04-20T12:21:30, 0781, rabbits-in-forest, Medium, "['array', 'hash-table', 'math', 'greedy']"
