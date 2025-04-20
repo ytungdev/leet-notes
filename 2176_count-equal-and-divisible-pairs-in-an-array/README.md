@@ -58,8 +58,8 @@ There are 4 pairs that meet all the requirements:
 		- `count++` if meeting all requirements
 - Implementation:
 	- store indices of digits in `_map[nums[i]] =[i,...]` and count of pairs as `ret`
-	- for `num` in `nums`:
+	- for `num` in `nums`: -- $O(N)$
 		- if `num` in `_map`:
-			- for each `j` in `_map[num]`:
+			- for each `j` in `_map[num]`: -- worst case $O(i-1)$
 				- if `i`*`j` divisible by `k` : `ret++`
 		- else: `_map[num] = [i]`
