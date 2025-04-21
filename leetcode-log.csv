@@ -35,3 +35,4 @@ timestamp, questionId, titleSlug, difficulty, topics
 2025-04-17T12:22:27, 2176, count-equal-and-divisible-pairs-in-an-array, Easy, "['array']"
 2025-04-18T18:11:05, 0038, count-and-say, Medium, "['string']"
 2025-04-20T12:21:30, 0781, rabbits-in-forest, Medium, "['array', 'hash-table', 'math', 'greedy']"
+2025-04-21T19:54:37, 2145, count-the-hidden-sequences, Medium, "['array', 'prefix-sum']"
