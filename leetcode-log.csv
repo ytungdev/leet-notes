@@ -37,3 +37,4 @@ timestamp, questionId, titleSlug, difficulty, topics
 2025-04-20T12:21:30, 0781, rabbits-in-forest, Medium, "['array', 'hash-table', 'math', 'greedy']"
 2025-04-21T19:54:37, 2145, count-the-hidden-sequences, Medium, "['array', 'prefix-sum']"
 2025-04-23T22:49:44, 1399, count-largest-group, Easy, "['hash-table', 'math']"
+2025-04-25T00:37:37, 2799, count-complete-subarrays-in-an-array, Medium, "['array', 'hash-table', 'sliding-window']"
