@@ -38,3 +38,4 @@ timestamp, questionId, titleSlug, difficulty, topics
 2025-04-21T19:54:37, 2145, count-the-hidden-sequences, Medium, "['array', 'prefix-sum']"
 2025-04-23T22:49:44, 1399, count-largest-group, Easy, "['hash-table', 'math']"
 2025-04-25T00:37:37, 2799, count-complete-subarrays-in-an-array, Medium, "['array', 'hash-table', 'sliding-window']"
+2025-04-27T00:46:28, 2444, count-subarrays-with-fixed-bounds, Hard, "['array', 'queue', 'sliding-window', 'monotonic-queue']"
