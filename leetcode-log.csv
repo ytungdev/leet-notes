@@ -40,3 +40,4 @@ timestamp, questionId, titleSlug, difficulty, topics
 2025-04-25T00:37:37, 2799, count-complete-subarrays-in-an-array, Medium, "['array', 'hash-table', 'sliding-window']"
 2025-04-27T00:46:28, 2444, count-subarrays-with-fixed-bounds, Hard, "['array', 'queue', 'sliding-window', 'monotonic-queue']"
 2025-04-27T15:09:23, 3392, count-subarrays-of-length-three-with-a-condition, Easy, "['array']"
+2025-04-29T00:38:31, 2302, count-subarrays-with-score-less-than-k, Hard, "['array', 'binary-search', 'sliding-window', 'prefix-sum']"
