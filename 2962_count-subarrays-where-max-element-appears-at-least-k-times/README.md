@@ -49,14 +49,15 @@
 
 #### Method 1 - sliding window
 
-- time  : $O(2N)$, worst case `L` and `R` have `N` iteration
+- time  : $O(3N)$, worst case `L` and `R` have `N` iteration
 - space : $O(1)$
 
 ---
 
 - Technique : sliding window
 - Intuition:
-	- For each index `R`, find shortest subarray `nums[L:R]` with `k` max element `x` ending at `R`:
+	- Find max element `max` -- $O(N)$
+	- For each index `R`, find shortest `nums[L:R]` with count of `max` >= k :  -- $O(2N)$
 		- if `max_count` of current window less than `k`: 
 			- expand window by `R++`
 			- add `next` element to window by updaing `max_count` if `next==x`
@@ -66,16 +67,31 @@
 		- once reaching shortest possible subarray, count subarray with strating index <= `L`
 			- `ret+=L+1`
 
-#### Method 2 - index calculation
+#### Method 2 - track index of max element
 
-- time  : $O(N+m)$, where `m` is the frequency of `max`
+- time  : $O(2N)$
+- space : $O(m)$, where `m` is the frequency of `max`
+
+---
+
+- Intuition:
+	- Find max element `max` -- $O(N)$
+	- For each `num` in `nums`: -- $O(N)$
+		- add its index to `maxi` if `num==max`
+		- if number of `maxi` >= `k`:
+			- count all possible subarray with starting index <= `maxi[-k]`
+
+
+#### Method 3 - index calculation
+
+- time  : $O(2N+m)$, where `m` is the frequency of `max`
 - space : $O(1)$
 
 ---
 
-- Technique : sliding window
 - Intuition:
-	- Find all index of element `max` in `nums` as `maxi`
+	- Find max element `max` -- $O(N)$
+	- Find all index of element `max` in `nums` as `maxi` -- $O(N)$
 	- For each window ending at index `R=maxi[i]`, `L=maxi[i-k+1]`
 		- no. of possible subarray = possibility of left * possibility of right
 			- possibility of left  = no. of element with index < `L` +1
@@ -91,15 +107,3 @@
 			- R=5: L=4, L=window=[2,2], 
 				- left=`[1,2,2,1]`, right=`[1]`
 				- ret += `5*2=8`
-
-
-
-
-		- if `max_count` of current window less than `k`: 
-			- expand window by `R++`
-			- add `next` element to window by updaing `max_count` if `next==x`
-		- if `max_count` == `k`:
-			- shrink window to by `L++` while `max_count` still equal `k`
-			- remove `last` from window by updaing `max_count` if `last==x`
-		- once reaching shortest possible subarray, count subarray with strating index <= `L`
-			- `ret+=L+1`
