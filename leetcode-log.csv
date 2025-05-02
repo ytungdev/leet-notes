@@ -43,3 +43,4 @@ timestamp, questionId, titleSlug, difficulty, topics
 2025-04-29T00:38:31, 2302, count-subarrays-with-score-less-than-k, Hard, "['array', 'binary-search', 'sliding-window', 'prefix-sum']"
 2025-04-29T23:47:38, 2962, count-subarrays-where-max-element-appears-at-least-k-times, Medium, "['array', 'sliding-window']"
 2025-04-30T13:35:57, 1295, find-numbers-with-even-number-of-digits, Easy, "['array', 'math']"
+2025-05-02T19:33:45, 0838, push-dominoes, Medium, "['two-pointers', 'string', 'dynamic-programming']"
