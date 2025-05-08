@@ -49,3 +49,4 @@ timestamp, questionId, titleSlug, difficulty, topics
 2025-05-06T14:34:48, 0790, domino-and-tromino-tiling, Medium, "['dynamic-programming']"
 2025-05-06T17:30:57, 1920, build-array-from-permutation, Easy, "['array', 'simulation']"
 2025-05-09T00:00:31, 3341, find-minimum-time-to-reach-last-room-i, Medium, "['array', 'graph', 'heap-priority-queue', 'matrix', 'shortest-path']"
+2025-05-09T00:25:25, 3342, find-minimum-time-to-reach-last-room-ii, Medium, "['array', 'graph', 'heap-priority-queue', 'matrix', 'shortest-path']"
