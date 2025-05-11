@@ -51,3 +51,4 @@ timestamp, questionId, titleSlug, difficulty, topics
 2025-05-09T00:00:31, 3341, find-minimum-time-to-reach-last-room-i, Medium, "['array', 'graph', 'heap-priority-queue', 'matrix', 'shortest-path']"
 2025-05-09T00:25:25, 3342, find-minimum-time-to-reach-last-room-ii, Medium, "['array', 'graph', 'heap-priority-queue', 'matrix', 'shortest-path']"
 2025-05-10T23:35:40, 2918, minimum-equal-sum-of-two-arrays-after-replacing-zeros, Medium, "['array', 'greedy']"
+2025-05-11T11:54:01, 1550, three-consecutive-odds, Easy, "['array']"
