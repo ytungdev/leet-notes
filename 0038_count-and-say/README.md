@@ -72,5 +72,8 @@ countAndSay(4) = RLE of &quot;21&quot; = &quot;1211&quot;
 - starts with "1"
 - iteratively builds the next term by reading the previous one (via Run-Length Encoding style)
 - repeats this n-1 times
+	- `f(1)` = `'1'`
+	- `f(2)` = `rle(f(1))`
+	- `f(3)` = `rle(rle((f(1))))`
 - Each term roughly doubles in size in the worst case. So the total time is: $O(2^N)$
 - At most, the string length is $O(2^N)$
