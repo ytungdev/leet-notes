@@ -1,7 +1,8 @@
 from typing import List
+from collections import Counter
 
-# Time : Beats 93.96 %
-# Memo : Beats 18.12 %
+# Time : Beats 96.64 %
+# Memo : Beats 18.79 %
 class Solution:
     def lengthAfterTransformations(self, s: str, t: int) -> int:
         mod = 10**9 + 7
@@ -10,9 +11,12 @@ class Solution:
             dp[i] = (dp[i-26] + dp[i-25]) % mod
         
         res = 0
-        for char in s:
-            res += dp[ord(char)-97 + t] % mod
-        
+        # for char in s:
+        #     res += dp[ord(char)-97 + t] % mod
+        counter = Counter(s)
+        for char,freq in counter.items():
+            res += freq*dp[ord(char)-97 + t] % mod
+
         return res % mod
 
 

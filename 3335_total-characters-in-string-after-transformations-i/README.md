@@ -123,7 +123,7 @@
 				- `dp[51](zab) = dp[25](z) + dp[25+1](ab) = 1+2=3`
 				- `dp[60](ijjk) = dp[34](ij) + dp[34+1](jk) = 2+2=4`
 			- Hence, `dp[i]=dp[i-26]+dp[i-25] for i>= 26`
-	- Update `res=0` for each character `char` in `s`:
+	- Update `res` for each character `char` in `s`:
 		- Final length for character `char` after `t` transformation : `dp[ord(char) - ord('a') + t]`
 - Implementation:
 	- Initiate `dp` with two part: `[1]*26`+`[0]*t`
