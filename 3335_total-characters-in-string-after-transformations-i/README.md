@@ -37,7 +37,6 @@
 
 <ul>
 	<li><strong>First Transformation (t = 1)</strong>:
-
 	<ul>
 		<li><code>&#39;a&#39;</code> becomes <code>&#39;b&#39;</code></li>
 		<li><code>&#39;b&#39;</code> becomes <code>&#39;c&#39;</code></li>
@@ -72,7 +71,6 @@
 
 <ul>
 	<li><strong>First Transformation (t = 1)</strong>:
-
 	<ul>
 		<li><code>&#39;a&#39;</code> becomes <code>&#39;b&#39;</code></li>
 		<li><code>&#39;z&#39;</code> becomes <code>&quot;ab&quot;</code></li>
