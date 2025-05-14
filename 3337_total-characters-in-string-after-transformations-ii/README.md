@@ -121,7 +121,7 @@
 	- `f(0,2)` = `f(1,1)` + `f(2,1)` = (`f(2,0)`+`f(3,0)`) + (`f(3,0)`+`f(4,0)`)
     - $f(c,t) = \sum_{c'=0}^{25} [f(c',t-1) \times T(c,c')]$
 - Use matrix to represent objective function of all characters for `i` transformation.
-$$
+```math
 \begin{pmatrix} f(0,i) \\\ f(1,i) \\\ \vdots \\\ f(25,i) \end{pmatrix}
 =
 \begin{bmatrix} 
@@ -133,9 +133,9 @@ $$
 \times
 
 \begin{pmatrix} f(0,i-1) \\\ f( 1,i-1) \\\ \vdots \\\ f(25,i-1) \end{pmatrix}
-$$
+```
 - Therefore, objective function of all characters after `t` transformation:
-$$
+```math
 \begin{pmatrix} f(0,t) \\\ f(1,t) \\\ \vdots \\\ f(25,t) \end{pmatrix}
 =
 \begin{bmatrix} 
@@ -147,6 +147,6 @@ $$
 \times
 
 \begin{pmatrix} f(0,0) \\\ f( 1,0) \\\ \vdots \\\ f(25,0) \end{pmatrix}
-$$
+```
 - Use "Exponentiation by squaring" to calculate $M^t$ efficiently
 - `resM = mat_product(freq,expo_by_sq(T, t))` and `res=sum(resM[0])`
