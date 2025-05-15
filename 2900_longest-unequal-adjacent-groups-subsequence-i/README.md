@@ -95,6 +95,7 @@
 ---
 
 - Intuition:
+    - Longest subsequence with alternating group always start with group of first element.
     - Longest subsequence with alternating group can be found by:
         - (1) Take the first element
         - (2) Find the next element with alternated group
