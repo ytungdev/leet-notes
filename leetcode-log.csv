@@ -56,3 +56,4 @@ timestamp, questionId, titleSlug, difficulty, topics, remark
 2025-05-13T21:53:23, 3335, total-characters-in-string-after-transformations-i, Medium, "['hash-table', 'math', 'string', 'dynamic-programming', 'counting']", "[]"
 2025-05-14T23:22:41, 3337, total-characters-in-string-after-transformations-ii, Hard, "['hash-table', 'math', 'string', 'dynamic-programming', 'counting']", "['Exponentiation by squaring', 'matrix']"
 2025-05-15T21:29:37, 2900, longest-unequal-adjacent-groups-subsequence-i, Easy, "['array', 'string', 'dynamic-programming', 'greedy']",
+2025-05-16T23:21:05, 2901, longest-unequal-adjacent-groups-subsequence-ii, Medium, "['array', 'string', 'dynamic-programming']", "[]"
