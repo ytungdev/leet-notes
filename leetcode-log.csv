@@ -58,3 +58,5 @@ timestamp, questionId, titleSlug, difficulty, topics, remark
 2025-05-15T21:29:37, 2900, longest-unequal-adjacent-groups-subsequence-i, Easy, "['array', 'string', 'dynamic-programming', 'greedy']",
 2025-05-16T23:21:05, 2901, longest-unequal-adjacent-groups-subsequence-ii, Medium, "['array', 'string', 'dynamic-programming']", "[]"
 2025-05-17T15:54:09, 0075, sort-colors, Medium, "['array', 'two-pointers', 'sorting']", "['dutch-national-flag-problem']"
+2025-05-20T00:17:54, 1931, painting-a-grid-with-three-different-colors, Hard, "['dynamic-programming']", "[]"
+2025-05-20T00:31:21, 3024, type-of-triangle, Easy, "['array', 'math', 'sorting']", "[]"
