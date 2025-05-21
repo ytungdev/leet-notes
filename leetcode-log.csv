@@ -60,3 +60,4 @@ timestamp, questionId, titleSlug, difficulty, topics, remark
 2025-05-17T15:54:09, 0075, sort-colors, Medium, "['array', 'two-pointers', 'sorting']", "['dutch-national-flag-problem']"
 2025-05-20T00:17:54, 1931, painting-a-grid-with-three-different-colors, Hard, "['dynamic-programming']", "[]"
 2025-05-20T00:31:21, 3024, type-of-triangle, Easy, "['array', 'math', 'sorting']", "[]"
+2025-05-21T22:37:11, 0073, set-matrix-zeroes, Medium, "['array', 'hash-table', 'matrix']", "[]"
