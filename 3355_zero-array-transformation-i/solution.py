@@ -1,6 +1,6 @@
 from typing import List
 
-# Time : Beats 100.0 %
+# Time : Beats 96.16 %
 # Memo : Beats 36.37 %
 class Solution:
     def isZeroArray(self, nums: List[int], queries: List[List[int]]) -> bool:
