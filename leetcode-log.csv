@@ -61,3 +61,4 @@ timestamp, questionId, titleSlug, difficulty, topics, remark
 2025-05-20T00:17:54, 1931, painting-a-grid-with-three-different-colors, Hard, "['dynamic-programming']", "[]"
 2025-05-20T00:31:21, 3024, type-of-triangle, Easy, "['array', 'math', 'sorting']", "[]"
 2025-05-21T22:37:11, 0073, set-matrix-zeroes, Medium, "['array', 'hash-table', 'matrix']", "[]"
+2025-05-22T23:19:05, 3355, zero-array-transformation-i, Medium, "['array', 'prefix-sum']", "['difference-array']"
