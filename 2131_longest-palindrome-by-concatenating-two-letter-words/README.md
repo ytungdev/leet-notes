@@ -102,9 +102,7 @@ Note that &quot;ll&quot; is another longest palindrome that can be created, and 
 		- If counterpart found in matrix(`cnt[j][i] > 0`)
 			- Consume the counterpart and add it to `res`
 			- `cnt[j][i] -= 1` and `res+=4`.
-			- If `word` is center candidate, `center-=1`
 		- else:
 			- `cnt[i][j] += 1`
-			- If `word` is center candidate, `center+=1`
 	- For word that contain same letter, they are candidate to place in the center.
 	- If any of `cnt[a][a] .. cnt[z][z]` == 1 after iterating all `words`, `res+=2` 
