@@ -67,3 +67,5 @@ timestamp, questionId, titleSlug, difficulty, topics, remark
 2025-05-27T12:17:32, 2894, divisible-and-non-divisible-sums-difference, Easy, "['math']", "[]"
 2025-05-27T15:53:07, 1857, largest-color-value-in-a-directed-graph, Hard, "['hash-table', 'dynamic-programming', 'graph', 'topological-sort', 'memoization', 'counting']", "['topological-sort', 'kahns-algorithm']"
 2025-05-29T22:35:42, 3372, maximize-the-number-of-target-nodes-after-connecting-trees-i, Medium, "['tree', 'depth-first-search', 'breadth-first-search']", "[]"
+2025-05-31T23:52:32, 2359, find-closest-node-to-given-two-nodes, Medium, "['depth-first-search', 'graph']", "[]"
+2025-06-01T23:35:35, 2929, distribute-candies-among-children-ii, Medium, "['math', 'combinatorics', 'enumeration']", "[]"
