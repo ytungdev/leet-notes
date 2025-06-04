@@ -72,3 +72,4 @@ timestamp, questionId, titleSlug, difficulty, topics, remark
 2025-06-01T23:35:35, 2929, distribute-candies-among-children-ii, Medium, "['math', 'combinatorics', 'enumeration']", "[]"
 2025-06-02T23:20:17, 0135, candy, Hard, "['array', 'greedy']", "[]"
 2025-06-04T23:35:58, 1298, maximum-candies-you-can-get-from-boxes, Hard, "['array', 'breadth-first-search', 'graph']", "[]"
+2025-06-05T00:12:42, 3403, find-the-lexicographically-largest-string-from-the-box-i, Medium, "['two-pointers', 'string', 'enumeration']", "[]"
