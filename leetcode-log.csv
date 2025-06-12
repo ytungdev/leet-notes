@@ -75,3 +75,4 @@ timestamp, questionId, titleSlug, difficulty, topics, remark
 2025-06-05T00:12:42, 3403, find-the-lexicographically-largest-string-from-the-box-i, Medium, "['two-pointers', 'string', 'enumeration']", "[]"
 2025-06-05T23:44:20, 1061, lexicographically-smallest-equivalent-string, Medium, "['string', 'union-find']", "[]"
 2025-06-11T22:04:50, 3442, maximum-difference-between-even-and-odd-frequency-i, Easy, "['hash-table', 'string', 'counting']", "[]"
+2025-06-12T21:49:57, 3423, maximum-difference-between-adjacent-elements-in-a-circular-array, Easy, "['array']", "[]"
