@@ -78,3 +78,4 @@ timestamp, questionId, titleSlug, difficulty, topics, remark
 2025-06-12T21:49:57, 3423, maximum-difference-between-adjacent-elements-in-a-circular-array, Easy, "['array']", "[]"
 2025-06-13T23:45:38, 2616, minimize-the-maximum-difference-of-pairs, Medium, "['array', 'binary-search', 'greedy']", "[]"
 2025-06-15T00:55:40, 2566, maximum-difference-by-remapping-a-digit, Easy, "['math', 'greedy']", "[]"
+2025-06-15T23:51:43, 1432, max-difference-you-can-get-from-changing-an-integer, Medium, "['math', 'greedy']", "[]"
