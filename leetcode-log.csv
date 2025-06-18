@@ -81,3 +81,4 @@ timestamp, questionId, titleSlug, difficulty, topics, remark
 2025-06-15T23:51:43, 1432, max-difference-you-can-get-from-changing-an-integer, Medium, "['math', 'greedy']", "[]"
 2025-06-16T15:03:23, 2016, maximum-difference-between-increasing-elements, Easy, "['array']", "[]"
 2025-06-17T23:39:32, 3405, count-the-number-of-arrays-with-k-matching-adjacent-elements, Hard, "['math', 'combinatorics']", "['exponentiation-by-squaring']"
+2025-06-19T00:06:20, 2966, divide-array-into-arrays-with-max-difference, Medium, "['array', 'greedy', 'sorting']", "[]"
