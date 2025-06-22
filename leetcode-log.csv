@@ -85,3 +85,4 @@ timestamp, questionId, titleSlug, difficulty, topics, remark
 2025-06-19T23:22:16, 2294, partition-array-such-that-maximum-difference-is-k, Medium, "['array', 'greedy', 'sorting']", "[]"
 2025-06-21T00:12:47, 3443, maximum-manhattan-distance-after-k-changes, Medium, "['hash-table', 'math', 'string', 'counting']", "[]"
 2025-06-21T21:23:04, 3085, minimum-deletions-to-make-string-k-special, Medium, "['hash-table', 'string', 'greedy', 'sorting', 'counting']", "[]"
+2025-06-22T23:55:28, 2138, divide-a-string-into-groups-of-size-k, Easy, "['string', 'simulation']", "[]"
