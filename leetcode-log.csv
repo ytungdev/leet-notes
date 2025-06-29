@@ -89,3 +89,4 @@ timestamp, questionId, titleSlug, difficulty, topics, remark
 2025-06-24T00:08:32, 2081, sum-of-k-mirror-numbers, Hard, "['math', 'enumeration']", "['digits','palindrome']"
 2025-06-24T14:21:53, 2200, find-all-k-distant-indices-in-an-array, Easy, "['array', 'two-pointers']", "[]"
 2025-06-26T22:38:06, 2311, longest-binary-subsequence-less-than-or-equal-to-k, Medium, "['string', 'dynamic-programming', 'greedy', 'memoization']", "[]"
+2025-06-29T00:19:16, 2099, find-subsequence-of-length-k-with-the-largest-sum, Easy, "['array', 'hash-table', 'sorting', 'heap-priority-queue']", "[]"
