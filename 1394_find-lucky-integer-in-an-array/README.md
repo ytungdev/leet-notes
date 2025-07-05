@@ -53,7 +53,16 @@
 
 ## Solution
 
-- time  : $O()$
-- space : $O()$
+- time  : $O(N+S)$, where 
+	- `N` is length of `arr`
+	- `S` is number of distinct element in `arr`
+- space : $O(S)$
 
 ---
+
+- Inuition:
+	- Count frequency of element in `arr` as hashmap counter `c`
+	- For each candidate `num` in `c`, update `res` to `num` if:
+		- Frequency of `num` == `num`, and
+		- `num` > `ret` (`num` in `c` is not neccesarily sorted)
+		
