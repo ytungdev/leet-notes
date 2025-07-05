@@ -93,3 +93,5 @@ timestamp, questionId, titleSlug, difficulty, topics, remark
 2025-06-30T00:00:26, 1498, number-of-subsequences-that-satisfy-the-given-sum-condition, Medium, "['array', 'two-pointers', 'binary-search', 'sorting']", "['subsequence']"
 2025-06-30T10:48:49, 0594, longest-harmonious-subsequence, Easy, "['array', 'hash-table', 'sliding-window', 'sorting', 'counting']", "['subsequence']"
 2025-07-01T22:31:05, 3330, find-the-original-typed-string-i, Easy, "['string']", "[]"
+2025-07-03T23:38:58, 3304, find-the-k-th-character-in-string-game-i, Easy, "['math', 'bit-manipulation', 'recursion', 'simulation']", "[]"
+2025-07-05T14:09:19, 1394, find-lucky-integer-in-an-array, Easy, "['array', 'hash-table', 'counting']", "[]"
