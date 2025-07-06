@@ -95,3 +95,4 @@ timestamp, questionId, titleSlug, difficulty, topics, remark
 2025-07-01T22:31:05, 3330, find-the-original-typed-string-i, Easy, "['string']", "[]"
 2025-07-03T23:38:58, 3304, find-the-k-th-character-in-string-game-i, Easy, "['math', 'bit-manipulation', 'recursion', 'simulation']", "[]"
 2025-07-05T14:09:19, 1394, find-lucky-integer-in-an-array, Easy, "['array', 'hash-table', 'counting']", "[]"
+2025-07-06T19:31:23, 1865, finding-pairs-with-a-certain-sum, Medium, "['array', 'hash-table', 'design']", "[]"
