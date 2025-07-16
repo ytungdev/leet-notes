@@ -84,12 +84,12 @@ You are given an integer array <code>nums</code>.
 		4. `10101..` : alternating, start with odd
 	- For alternating `sub`, max length always include `nums[0]`
 		- Type 3 and 4 can be combined as alternating `sub`
+	- `all_odd = len(nums) - all_even`
 - Implementation:
 	- Keep track of max length in each type:
-		- `all_even`, `all_odd`, `alter`
+		- `all_even`, `alter`
 	- Track starting parity for alternating `sub` : `parity = nums[0]%2`
 	- Iterate `num` in `nums`:
 		- if `num` is odd: `all_odd+=1`
-		- if `num` is even: `all_even+=1`
 		- if parity of `num` equal `parity` : `alter+=1` and `parity ^= 1`
-	- return `max(all_even,all_odd,alter)`
+	- return `max(all_even,len(nums)-all_even,alter)`

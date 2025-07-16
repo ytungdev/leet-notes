@@ -1,6 +1,6 @@
 from typing import List
 
-# Time : Beats 89.15 %
+# Time : Beats 96.90 %
 # Memo : Beats 54.26 %
 class Solution:
     def maximumLength(self, nums: List[int]) -> int:
@@ -11,7 +11,6 @@ class Solution:
         - 10101
         '''
         c00 = 0
-        c11 = 0
         c01 = 0
 
         c01_odd = nums[0] % 2
@@ -22,10 +21,8 @@ class Solution:
                 if c01_odd == 0:
                     c01 += 1
                     c01_odd ^= 1
-            else:
-                c11 += 1
-                if c01_odd == 1:
-                    c01 += 1
-                    c01_odd ^= 1
+            elif c01_odd == 1:
+                c01 += 1
+                c01_odd ^= 1
     
-        return max(c00,c11,c01)
+        return max(c00,len(nums)-c00,c01)
