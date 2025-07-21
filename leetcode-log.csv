@@ -102,3 +102,4 @@ timestamp, questionId, titleSlug, difficulty, topics, remark
 2025-07-15T12:58:02, 3136, valid-word, Easy, "['string']", "[]"
 2025-07-16T15:15:55, 3201, find-the-maximum-length-of-valid-subsequence-i, Medium, "['array', 'dynamic-programming']", "[]"
 2025-07-18T23:58:40, 2163, minimum-difference-in-sums-after-removal-of-elements, Hard, "['array', 'dynamic-programming', 'heap-priority-queue']", "[]"
+2025-07-19T20:35:21, 1233, remove-sub-folders-from-the-filesystem, Medium, "['array', 'string', 'depth-first-search', 'trie']", "[]"
