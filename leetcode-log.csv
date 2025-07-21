@@ -101,3 +101,4 @@ timestamp, questionId, titleSlug, difficulty, topics, remark
 2025-07-14T16:41:00, 1290, convert-binary-number-in-a-linked-list-to-integer, Easy, "['linked-list', 'math']", "[]"
 2025-07-15T12:58:02, 3136, valid-word, Easy, "['string']", "[]"
 2025-07-16T15:15:55, 3201, find-the-maximum-length-of-valid-subsequence-i, Medium, "['array', 'dynamic-programming']", "[]"
+2025-07-18T23:58:40, 2163, minimum-difference-in-sums-after-removal-of-elements, Hard, "['array', 'dynamic-programming', 'heap-priority-queue']", "[]"
