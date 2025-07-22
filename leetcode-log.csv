@@ -105,3 +105,4 @@ timestamp, questionId, titleSlug, difficulty, topics, remark
 2025-07-19T20:35:21, 1233, remove-sub-folders-from-the-filesystem, Medium, "['array', 'string', 'depth-first-search', 'trie']", "[]"
 2025-07-21T00:34:15, 1948, delete-duplicate-folders-in-system, Hard, "['array', 'hash-table', 'string', 'trie', 'hash-function']", "[]"
 2025-07-21T12:17:07, 1957, delete-characters-to-make-fancy-string, Easy, "['string']", "[]"
+2025-07-22T12:30:28, 1695, maximum-erasure-value, Medium, "['array', 'hash-table', 'sliding-window']", "[]"
