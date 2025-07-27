@@ -107,3 +107,4 @@ timestamp, questionId, titleSlug, difficulty, topics, remark
 2025-07-21T12:17:07, 1957, delete-characters-to-make-fancy-string, Easy, "['string']", "[]"
 2025-07-22T12:30:28, 1695, maximum-erasure-value, Medium, "['array', 'hash-table', 'sliding-window']", "[]"
 2025-07-27T23:15:13, 2210, count-hills-and-valleys-in-an-array, Easy, "['array']", "[]"
+2025-07-27T23:45:28, 3487, maximum-unique-subarray-sum-after-deletion, Easy, "['array', 'hash-table', 'greedy']", "[]"
