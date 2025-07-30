@@ -108,3 +108,4 @@ timestamp, questionId, titleSlug, difficulty, topics, remark
 2025-07-22T12:30:28, 1695, maximum-erasure-value, Medium, "['array', 'hash-table', 'sliding-window']", "[]"
 2025-07-27T23:15:13, 2210, count-hills-and-valleys-in-an-array, Easy, "['array']", "[]"
 2025-07-27T23:45:28, 3487, maximum-unique-subarray-sum-after-deletion, Easy, "['array', 'hash-table', 'greedy']", "[]"
+2025-07-30T21:09:21, 2419, longest-subarray-with-maximum-bitwise-and, Medium, "['array', 'bit-manipulation', 'brainteaser']", "[]"
