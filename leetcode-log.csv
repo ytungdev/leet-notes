@@ -112,3 +112,4 @@ timestamp, questionId, titleSlug, difficulty, topics, remark
 2025-08-04T22:45:19, 0118, pascals-triangle, Easy, "['array', 'dynamic-programming']", "[]"
 2025-08-04T23:04:09, 0904, fruit-into-baskets, Medium, "['array', 'hash-table', 'sliding-window']", "[]"
 2025-08-05T22:01:54, 3477, fruits-into-baskets-ii, Easy, "['array', 'binary-search', 'segment-tree', 'simulation', 'ordered-set']", "[]"
+2025-08-09T12:49:53, 0231, power-of-two, Easy, "['math', 'bit-manipulation', 'recursion']", "[]"

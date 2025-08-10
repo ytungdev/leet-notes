@@ -49,7 +49,7 @@ def main():
     #     file.write(json.dumps(question))
     
     # create new dir
-    new_dir = f'./{q_number}_{q_slug}'
+    new_dir = f'./notes/{q_number}_{q_slug}'
     Path(new_dir).mkdir(parents=True, exist_ok=True)
 
     
