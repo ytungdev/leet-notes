@@ -114,3 +114,4 @@ timestamp, questionId, titleSlug, difficulty, topics, remark
 2025-08-05T22:01:54, 3477, fruits-into-baskets-ii, Easy, "['array', 'binary-search', 'segment-tree', 'simulation', 'ordered-set']", "[]"
 2025-08-09T12:49:53, 0231, power-of-two, Easy, "['math', 'bit-manipulation', 'recursion']", "[]"
 2025-08-10T23:30:18, 0869, reordered-power-of-2, Medium, "['hash-table', 'math', 'sorting', 'counting', 'enumeration']", "[]"
+2025-08-11T23:35:18, 2438, range-product-queries-of-powers, Medium, "['array', 'bit-manipulation', 'prefix-sum']", "[]"
