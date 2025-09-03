@@ -123,3 +123,4 @@ timestamp, questionId, titleSlug, difficulty, topics, remark
 2025-08-20T23:45:34, 1277, count-square-submatrices-with-all-ones, Medium, "['array', 'dynamic-programming', 'matrix']", "[]"
 2025-08-22T23:38:52, 3195, find-the-minimum-area-to-cover-all-ones-i, Medium, "['array', 'matrix']", "[]"
 2025-08-24T23:35:55, 1493, longest-subarray-of-1s-after-deleting-one-element, Medium, "['array', 'dynamic-programming', 'sliding-window']", "[]"
+2025-08-25T23:08:18, 0498, diagonal-traverse, Medium, "['array', 'matrix', 'simulation']", "[]"
