@@ -128,3 +128,4 @@ timestamp, questionId, titleSlug, difficulty, topics, remark
 2025-08-29T00:09:52, 3446, sort-matrix-by-diagonals, Medium, "['array', 'sorting', 'matrix']", "[]"
 2025-08-29T12:13:41, 3021, alice-and-bob-playing-flower-game, Medium, "['math']", "[]"
 2025-08-30T19:47:52, 0036, valid-sudoku, Medium, "['array', 'hash-table', 'matrix']", "[]"
+2025-08-31T23:45:24, 0037, sudoku-solver, Hard, "['array', 'hash-table', 'backtracking', 'matrix']", "[]"
