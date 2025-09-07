@@ -127,3 +127,4 @@ timestamp, questionId, titleSlug, difficulty, topics, remark
 2025-08-26T22:30:59, 3000, maximum-area-of-longest-diagonal-rectangle, Easy, "['array']", "[]"
 2025-08-29T00:09:52, 3446, sort-matrix-by-diagonals, Medium, "['array', 'sorting', 'matrix']", "[]"
 2025-08-29T12:13:41, 3021, alice-and-bob-playing-flower-game, Medium, "['math']", "[]"
+2025-08-30T19:47:52, 0036, valid-sudoku, Medium, "['array', 'hash-table', 'matrix']", "[]"
